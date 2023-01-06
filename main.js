@@ -1,7 +1,9 @@
 import { Node } from "./Node.js";
 
 if (process.argv.length < 2) console.error("No Argument");
-else {
+else if (parseInt(process.argv[2]) == process.argv[2]) {
+  console.log(parseInt(process.argv[2]));
+} else {
   const result = parseExpression(process.argv[2]);
 
   console.log(result);
