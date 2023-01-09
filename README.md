@@ -4,7 +4,7 @@ Node.js must be installed
 
 # How to run this tool
 
-Use the command `node main.js "<EXPRESSION TO CALCULATE>"`
+Use the command `node index.js "<EXPRESSION TO CALCULATE>"`
 
 # Adding new operators
 
